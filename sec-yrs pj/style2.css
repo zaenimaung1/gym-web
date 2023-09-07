@@ -1,0 +1,64 @@
+body{background-image: url("img/pbg-01.jpg");background-color: black;background-size: cover;}
+*{
+    font-family: 'Poppins', serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;text-transform: capitalize;
+    transition: .2s linear;
+
+}
+ .p_info img{
+     width:90px;
+     height: auto;
+
+}
+
+
+.container .heading{
+    text-align: center;
+    color: #ffd60a;
+    font-size: 80px;
+    }
+
+.container {margin: 8%;}
+
+span{color: white}
+
+.container .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:10%;
+    margin-right:10% ;
+
+}
+
+.box-container .box h1{
+    margin-bottom: 10px;
+}
+
+.container .box-container .box{
+    text-align: center;
+    /*padding:10px 80px;
+    /*border: 1px solid #ffd60a;*/
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    margin: 40px;
+    color: white;
+    border-radius:50px;
+}
+.reg_btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #ffd60a;
+    color: black;
+    margin-bottom: 5px;
+}
+
+
+.m_p{color: white;text-align: center;margin-top: 20px;}
+.m_p a{color: #ffd60a}

@@ -1,0 +1,169 @@
+
+* {
+    outline: none;
+    font-family: 'poppins',sans-serif;
+  }
+  
+  body {
+    margin: 8px;
+    background-image: url("assests/pbg-01.jpg");background-color: black;background-size: cover;
+  }
+  
+ 
+
+  #cover {
+    width: 822px;
+    height: 522px;
+    padding: 70px;
+    margin: 0 auto;
+  position: relative;
+  
+  }
+ 
+  
+  #form-ui,
+  form,
+  #close-form {
+    position: relative;
+  }
+  
+  form {
+    width: 462px;
+    height: 572px;
+    background-color: #ffd60a;
+    box-shadow: 2px 5px 15px rgb(0 0 0 / 90%);
+    border-radius: 20px;
+    margin-left: 100px;
+   
+  }
+
+  
+ 
+  #close-form  {
+ 
+    position: absolute;
+   margin-left: 20px;
+    width: 50px;
+    height: 58px;
+    border-radius: 10px;
+
+  }
+  a i{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+  }
+  #cross{
+        position: absolute;
+        right: -350px;
+       
+  }
+
+  #form-body {
+    position: absolute;
+    top: 60%;
+    right: 25px;
+    left: 25px;
+    width: 230px;
+    margin: -156px auto 0 auto;
+  }
+  
+  #welcome-lines {
+    text-align: center;
+    line-height: 1;
+  }
+  
+  #w-line-1 {
+    color: #ffd60a;
+    font-size: 60px;
+    font-family: 'poppins',sans-serif;
+  }
+  
+  #w-line-2 {
+    font-size: 38px;
+    font-size: 600;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -100px;
+  }
+  
+  #input-area {
+    margin-top: 30px;
+  }
+  
+  .f-inp {
+    padding: 11px 25px;
+    border: 1px solid #000;
+    line-height: 1;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  .f-inp:first-child {
+    margin-bottom: 15px;
+  }
+  
+  .f-inp input {
+    width: 100%;
+    font-size: 13.4px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+   
+  }
+  input{
+    background-color: transparent;
+  }
+ 
+  
+  .f-inp input::placeholder {
+    color: #000;
+ 
+  }
+  
+  #submit-button-cvr {
+    margin-top: 20px;
+  }
+  
+  #submit-button {
+    display: block;
+    width: 100%;
+    color: #ffd60a;
+    font-size: 20px;
+    margin: 0;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    background-color:black;
+    border-radius: 25px;
+    line-height: 1;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  
+  #img-box {
+    position: absolute;
+    top: 50%;
+    left: 352px;
+    width: 254px;
+    height: 475px;
+    margin-top: -237.5px;
+    padding-right: 16px;
+    border-radius: 0 20px 20px 0;
+    overflow: hidden;
+    box-shadow: 2px 5px 15px rgb(230, 208, 7);
+    color: #ffd60a;
+    margin-left: 100px;
+    
+  }
+
+   #img-box img {
+    transform: rotate(-90deg);
+    margin-top: 200px;  
+    width: 500px;
+    right: -150px;
+  position: absolute;
+ 
+  }
+   

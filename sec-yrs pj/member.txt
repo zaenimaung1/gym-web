@@ -1,0 +1,158 @@
+ <section class="membership-plans"id="member">
+          <div >
+            <h1 style="font-size: 50px;"> <span style="font-size: 52px; color: #ffd60a;">Membership Plans</h1>
+            <p style="color: white;">Choose the membership plan that fits your needs:</p>
+            <div class="plans">
+              <div class="plan">
+    <h2 style="color:#ffd60a;">Basic</h2>
+    <h3>$19.99/month</h3>
+    <ul>
+      <li>24/7 Gym Access</li>
+      <li>Fitness Classes</li>
+      <li>Basic Equipment</li>
+      <li>No Commitment</li>
+    </ul>
+    <a href="register.html" class="cta" id="basic-plan-btn">Sign up</a>
+  </div>
+  
+              <div class="plan">
+                <h2 style="color:#ffd60a;">Standard</h2>
+                <h3>$29.99/month</h3>
+                <ul>
+                  <li>24/7 Gym Access</li>
+                  <li>Fitness Classes</li>
+                  <li>Advanced Equipment</li>
+                  <li>No Commitment</li>
+                </ul>
+                <a href="register.html" class="cta">Sign up</a>
+              </div>
+              <div class="plan">
+                <h2 style="color:#ffd60a;">Premium</h2>
+                <h3>$39.99/month</h3>
+                <ul>
+                  <li>24/7 Gym Access</li>
+                  <li>Fitness Classes</li>
+                  <li>Advanced Equipment</li>
+                  <li>Personal Trainer Sessions</li>
+                </ul>
+                <a href="register.html" class="cta" >Sign up</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+css
+ .membership-plans {
+      background-color: #fff;
+      padding: 50px 0;
+    }
+    
+    .membership-plans h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: black;
+    }
+    
+    .membership-plans p {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #ffd60a;
+    }
+    
+    .plans {
+      display: flex;
+      margin-left: 100px;
+      flex-wrap: wrap;
+      
+    }
+    
+    .plan {
+      color: #000;
+      background-color: #0000;
+      /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+      width: 400px;
+      padding: 30px;
+      margin-left: 20px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+      border: 2px solid #ffd60a;
+      border-radius: 10px;
+    }
+    
+    .plan:hover {
+      
+      transform: translateY(-15px);
+    
+    }
+    
+    .plan h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    
+    .plan h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #999;
+      font-size: 18px;
+    }
+    
+    .plan ul {
+      margin-bottom: 20px;
+
+    }
+   
+    
+    .plan ul li  {
+      list-style-type: none;
+      margin-bottom: 10px;
+    }
+    .plan ul li::before{
+      content: "\2022";
+      color: #ffd60a;
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+    }
+    a{
+      text-decoration: none;
+    }
+    .plan .cta  {
+     
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      background-color: #ffd60a;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      border: none;
+    }
+    span{
+      color: #ffd60a;
+      font-size: 45px;
+    }
+
+
+          /* our service */
+       #programm{
+      width: 100%;
+      margin-top: 30px;
+      height: 80vh;
+    }
+    #programm h2{
+      color: white;
+      font-size: 45px;
+      text-align: center;
+    }
+    #programm p{
+      color: #ffd60a;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-top: 5px;
+    }
+
